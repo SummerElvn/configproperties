@@ -1,3 +1,5 @@
-url: "http://newconfigproperty"
-port: 9898
-name: "Config new Properties name"
+serviceBaseUrl: "http://localhost:"
+servicePort: 8082
+endpoints: 
+  getUsers: /getusers
+  addNewUser: /addnewuser
