@@ -6,3 +6,5 @@ app:
       endpoints: 
         getUsers: /getusers
         addNewUser: /addnewuser
+        getUser: /getuser/{name}
+        modifyUser: /modifyuser
