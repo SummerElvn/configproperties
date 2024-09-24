@@ -1,7 +1,8 @@
 app:
   service1:
-    serviceBaseUrl: "http://localhost:"
-    servicePort: 8082
-    endpoints: 
-      getUsers: /getusers
-      addNewUser: /addnewuser
+    serviceProps:
+      serviceBaseUrl: "http://localhost:"
+      servicePort: 8082
+      endpoints: 
+        getUsers: /getusers
+        addNewUser: /addnewuser
