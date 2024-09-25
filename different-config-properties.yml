@@ -8,3 +8,38 @@ app:
         addNewUser: /addnewuser
         getUser: /getuser/{name}
         modifyUser: /modifyuser
+  name: "SassyApp"         # String
+  enabled: true            # Boolean
+  max-users: 100           # Integer
+  interest-rate: 5.75      # Float
+  created-on: 2024-09-24   # Date
+  last-login: 2024-09-24T15:30:00Z # Timestamp
+  binary-data: !!binary |  # Binary data (Base64)
+    R0lGODdhEAAQAMQAAAAAAP///ywAAAAAEAAQAAACFoRCJTdbB...
+  colors:                  # List
+    - red
+    - green
+    - blue
+  servers:                 # List of Objects
+    - name: "Server1"
+      ip: "192.168.1.1"
+    - name: "Server2"
+      ip: "192.168.1.2"
+  database:                # Object (Map)
+    url: "jdbc:mysql://localhost:3306/sassydb"
+    username: "admin"
+    password: "secret"
+  cache: null              # Null value
+  literal-block: |         # Literal block string (preserves newlines)
+    This is a literal block.
+    Newlines are preserved.
+  folded-block: >          # Folded block string (newlines become spaces)
+    This is a folded block.
+    Newlines are turned into spaces.
+  default: &default-settings  # Anchor for default settings
+    retries: 3
+    timeout: 30
+  custom:                  # Alias using the anchor
+    <<: *default-settings
+    retries: 5
+        
