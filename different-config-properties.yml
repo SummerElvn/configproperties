@@ -42,4 +42,3 @@ app:
   custom:                  # Alias using the anchor
     <<: *default-settings
     retries: 5
-        
