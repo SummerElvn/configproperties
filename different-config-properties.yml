@@ -13,7 +13,7 @@ app:
   max-users: 100           # Integer
   interest-rate: 5.75      # Float
   created-on: 2024-09-24   # Date
-  last-login: 2024-09-24T15:30:00Z # Timestamp
+  last-login: 2024-09-24T15:30:00 # Timestamp
   colors:                  # List
     - red
     - green
