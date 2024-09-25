@@ -15,7 +15,7 @@ app:
   created-on: 2024-09-24   # Date
   last-login: 2024-09-24T15:30:00Z # Timestamp
   binary-data: !!binary |
-    SGVsbG8gd29ybGQ=  # Base64 for "Hello world!" with padding (Length is a multiple of 4)
+    SGVsbG8gVGhpcyBpcyBiYXNlIDY0IGVuY29kaW5n  # Example valid Base64 with padding
   colors:                  # List
     - red
     - green
